@@ -8,11 +8,11 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
     <PackageId>PollyAzureBlob</PackageId>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <Authors>Justin Bannister</Authors>
     <Description>Polly v8 resilience pipelines for Azure Blob Storage — wrap BlobClient and BlobContainerClient operations with retry, timeout, circuit-breaker, and more using ResilientBlobClient and ResilientBlobContainerClient decorators. Zero changes to your existing blob operations.</Description>
     <PackageTags>polly;azure;blob;storage;resilience;retry;timeout;circuit-breaker;fault-tolerance;dotnet;aspnetcore;polly-v8;azure-storage;dependency-injection</PackageTags>
-    <PackageReleaseNotes>1.0.0: Initial release. ResilientBlobClient and ResilientBlobContainerClient wrap Azure Blob Storage operations in a Polly v8 ResiliencePipeline. Supports net6.0, net8.0, and net9.0.</PackageReleaseNotes>
+    <PackageReleaseNotes>1.0.1: Fix package icon (was showing an incorrect/placeholder image). 1.0.0: Initial release. ResilientBlobClient and ResilientBlobContainerClient wrap Azure Blob Storage operations in a Polly v8 ResiliencePipeline. Supports net6.0, net8.0, and net9.0.</PackageReleaseNotes>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/Swevo/PollyAzureBlob</RepositoryUrl>
@@ -40,8 +40,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="..\..\icon.png" Pack="true" PackagePath="\" />
-    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+    <None Include="....icon.png" Pack="true" PackagePath="" />
+    <None Include="....README.md" Pack="true" PackagePath="" />
   </ItemGroup>
 
 </Project>
