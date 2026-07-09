@@ -3,6 +3,7 @@
 [![NuGet](https://img.shields.io/nuget/v/PollyAzureBlob.svg)](https://www.nuget.org/packages/PollyAzureBlob)
 [![NuGet Downloads](https://img.shields.io/nuget/dt/PollyAzureBlob.svg)](https://www.nuget.org/packages/PollyAzureBlob)
 [![CI](https://github.com/Swevo/PollyAzureBlob/actions/workflows/build.yml/badge.svg)](https://github.com/Swevo/PollyAzureBlob/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 **Polly v8 resilience for Azure Blob Storage** — retry, timeout, and circuit-breaker for `BlobClient` and `BlobContainerClient` with a single `WithPolly(pipeline)` call. Drop-in decorator, zero changes to your existing blob code.
 
